@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(14, 15, 71);
+    color: white;
+}
+.cantainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.cantainer h1{
+    font-size: 2.40rem;
+    color: rgb(255, 171, 16);
+    padding: 12px;
+}
+.cantainer input{
+    padding: 18px 12px;
+    font-size: 16px;
+    background: none;
+    outline: none;
+    border: solid 0.90px white;
+    color: white;
+    transition: all 0.3s ease;
+}
+.cantainer input:hover{
+    border: none;
+}
+.cantainer button{
+    padding: 10px 13px;
+    font-size: 1rem;
+    font-weight: 500;
+    background: none;
+    border: solid 1px white;
+    margin-top: 14px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+.cantainer button:hover{
+    background-color: blue;
+}
+.cantainer p{
+    margin-top: 18px;
+    font-size: 20px;
+    color: white;
+}
